@@ -207,7 +207,7 @@ import Control.Monad.ST (runST,ST)
 import Data.Bits (xor)
 import Data.Coerce (coerce)
 import Data.Kind (Type)
-import Data.Primitive hiding (fromList,fromListN)
+import Data.Primitive hiding (cloneMutablePrimArray, clonePrimArray, thawPrimArray, freezePrimArray, fromList,fromListN)
 import Data.Primitive.Unlifted.Array
 import Data.Primitive.Unlifted.Class (PrimUnlifted)
 import Data.Semigroup (Semigroup,(<>),First(..))
